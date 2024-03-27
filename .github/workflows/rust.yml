@@ -24,4 +24,4 @@ jobs:
     needs: build
     steps:
       - name: writing something
-        run: echo "salut les potes"
+        run: docker run owo
