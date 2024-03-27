@@ -1,3 +1,4 @@
 fn main() {
-    println!("Hello, world!");
+    let oo = env!("SALUT");
+    println!("Hello! {}", oo);
 }
